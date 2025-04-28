@@ -1,0 +1,22 @@
+# macOS system files
+.DS_Store
+
+# Gradle (Android)
+.gradle/
+.idea/
+android-app/.DS_Store
+android-app/local.properties
+android-app/build/
+android-app/captures/
+android-app/.externalNativeBuild/
+android-app/.cxx/
+
+# Rust (hello-rust-lib)
+hello_rust_lib/debug/
+hello_rust_lib/target/
+hello_rust_lib/Cargo.lock
+hello_rust_lib/*.rs.bk
+
+# MSVC Windows builds of rustc generate these, which store debugging information
+hello_rust_lib/*.pdb
+
